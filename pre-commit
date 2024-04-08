@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Commit message
+message="Auto commit"
+
+# Stage changes
+git add .
+
+# Commit changes
+git commit -m "$message"
+
+# Push changes (if needed)
+git push origin master
